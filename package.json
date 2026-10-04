@@ -1,6 +1,6 @@
 {
   "name": "@christopher-peters-dev/investment-platform",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared platform contracts and investment design system for the brownfield React Native POC",
   "files": [
     "src",
