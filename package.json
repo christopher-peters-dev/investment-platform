@@ -1,7 +1,7 @@
 {
-  "name": "@company/investment-platform",
+  "name": "@christopher-peters-dev/investment-platform",
   "version": "1.0.1",
-  "description": "Shared platform contracts and existing investment design system",
+  "description": "Shared platform contracts and investment design system for the brownfield React Native POC",
   "files": [
     "src",
     "README.md"
@@ -29,8 +29,11 @@
     "react-native": "0.87.1",
     "react-native-safe-area-context": "5.10.1"
   },
-  "scripts": {
-    "package:platform": "node ../../scripts/package-library.mjs"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
-  "pocArtifactDirectory": "../../../artifacts"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopher-peters-dev/investment-platform.git"
+  }
 }
