@@ -1,0 +1,36 @@
+{
+  "name": "@company/investment-platform",
+  "version": "1.0.1",
+  "description": "Shared platform contracts and existing investment design system",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "exports": {
+    "./design-system": {
+      "types": "./src/design-system/index.ts",
+      "default": "./src/design-system/index.ts"
+    },
+    "./di": {
+      "types": "./src/di/index.ts",
+      "default": "./src/di/index.ts"
+    },
+    "./observability": {
+      "types": "./src/observability/index.ts",
+      "default": "./src/observability/index.ts"
+    },
+    "./common": {
+      "types": "./src/common/index.ts",
+      "default": "./src/common/index.ts"
+    }
+  },
+  "peerDependencies": {
+    "react": "19.2.3",
+    "react-native": "0.87.1",
+    "react-native-safe-area-context": "5.10.1"
+  },
+  "scripts": {
+    "package:platform": "node ../../scripts/package-library.mjs"
+  },
+  "pocArtifactDirectory": "../../../artifacts"
+}
